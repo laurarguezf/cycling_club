@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteCyclingClub</title>
+    <link href="./scss/main.scss" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="club_title">
+            <h1 class="club_name">ELITE CYCLING CLUB</h1>
+            <img class="logo" src="images/bike.png" alt="logo">
+        </div>
+        <nav class="header_nav">
+            <h3><a class="header_nav_link" href=#about_us>About</a></h3>
+            <h3><a class="header_nav_link" href=#events>Events</a></h3>
+            <h3><a class="header_nav_link" href="#subscribe">Subscribe</a></h3>
+            <h3><a class="header_nav_link" href=#contact>Contact</a></h3>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT US-->
+        <section id="about_us">
+            <img class="about_us_background" src="./images/main-background.jpg" alt="main-background">
+            <!--<div class="about_us_background"></div> -->
+            <div class="about_us_content">
+                <h2 class="body_titles">ABOUT US</h2>
+                <p class="body_texts space">At Elite Cycling Club, we're more than just a cycling club - we're a close-knit family bonded by our love for two wheels. Whether you're looking for scenic rides, expert advice, or simply a group to share the road with, you'll find it all here among fellow enthusiasts.</p>
+                <p class="body_texts italic">Join us for shared adventures and a passion for biking!</p>
+            </div>
+        </section>
+        
+        <!-- EVENTS -->
+        <section id="events">
+            <div class="events_main_content">
+                <h2 class="body_titles space">EVENTS</h2>
+                <p class="body_texts">Take a look at some of our last events!</p>
+            </div>
+
+            <!-- PAST EVENTS -->
+            <div class="past-events">
+                <figure class="event">
+                    <img class="event_image" src="images/kids-cycling.jpg" alt="Group of kids cycling">
+                    <figcaption class="image_caption body_texts">Pedan Palooza: A Fun-Filled Kids' Cycling Extravaganza!</figcaption>
+                </figure>
+                <figure class="event">
+                    <img class="event_image" src="images/woman-cycling.jpg" alt="Group of women cycling">
+                    <figcaption class="image_caption body_texts">Ride & Thrieve: A Women's Cycling Celebration</figcaption>
+                </figure>
+                <figure class="event">
+                    <img class="event_image" src="images/group-cycling.jpg" alt="Two people on their bikes">
+                    <figcaption class="image_caption body_texts">Advances Riders Rally: Elite Group Cycling Expedition</figcaption>
+                </figure>
+            </div>
+
+            <!-- COMING SOON -->
+            <div class="next_event">
+                <div class="coming_soon_title italic">
+                    <h2 class="body_titles">Coming soon...</h2>
+                </div>
+                <div class="next_event_description ">
+                    <img class="event_image" src="images/next-event.jpg" alt="Our next event for advanced cyclists">
+                    <div class="event_info body_texts">
+                        <p class="space body_texts">Calling all seasoned riders! Conquer challenging terrain and elevate your cycling game 
+                        with our Advanced Cyclists' Ride. Join us for an exhilarating journey through scenic routes and 
+                        camaraderie!</p>
+                        <p class="date_location body_texts">Date: June 16th, 2024</p>
+                        <p class="date_location body_texts">Time: 9:00 AM</p>
+                        <p class="date_location body_texts">Meeting Point: Central Park, near the fountain</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUBSCRIBE -->
+        <section id="subscribe">
+            <h2 class="body_titles">Subscribe to our newsletter!</h2>
+            <p class="subscribe_text body_texts space">Stay ahead of the cycling game! Subsribe to our newsletter for the latest rides, events, and cycling tips
+            delivered straight to your inbox. Join us on two wheels and never miss a beat!</p>
+            <div class="subscribe_button">
+                <input class="email" placeholder="Enter your email">
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CONTACT -->
+    <footer id="contact">
+        <h2 class="body_titles">Contact us!</h2>
+        <p class="body_texts space">Have a question or want to get in touch?</p>            
+        <p class="italic body_texts space">Reach us at: 
+        <p class="italic body_texts">info@elitecyclingclub.com</p>
+        <p class="italic body_texts space">or</p>
+        <p class="italic body_texts">+1 234 567 890</p>
+    </footer>
+    
+</body>
+</html>

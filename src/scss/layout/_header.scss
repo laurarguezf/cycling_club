@@ -1,0 +1,50 @@
+/* HEADER */
+
+.header {
+    background-color: darkslategrey;
+    color: white;
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    border-bottom: solid 0.1rem white;
+    z-index: 1;
+}
+
+.club_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    gap: 1.5rem;
+    padding-block: 0.75rem;
+    padding-inline: 2rem;
+
+    .club_name {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        height: 2rem;
+    }
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+    padding-block: 0.25rem;
+
+    .header_nav_link {
+        color: white;
+        font-weight: lighter;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    .header_nav_link:hover {
+        color: darkseagreen;
+    }
+}
+
+
+

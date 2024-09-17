@@ -1,0 +1,49 @@
+/* SUBSCRIBE */
+
+#subscribe {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    margin-block: 3rem;
+    color: darkslategrey;
+
+    .subscribe_text {
+        max-width: 60vw;
+    }
+
+    .subscribe_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        padding-block: 1rem;
+        padding-inline: 1rem;
+
+        .email {
+            width: 200px;
+        }
+        
+        .button {
+            width: 100px;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            background-color: rgb(183, 216, 227);
+            border-radius: 6px;
+        }
+        
+        button:hover {
+            background-color: lightgrey;
+        }
+        
+        button:active {
+            width: 96px;
+            height: 28px;
+        }
+    }
+}
+
+
+
+
+
