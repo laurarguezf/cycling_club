@@ -3,15 +3,33 @@
 .about_us_background {
     width: 100vw;
     object-fit: cover;
-    /*height: 195px;
 
-    background-image: url('../images/main-background.jpg');
-    background-size: cover;
-    background-position: center;*/
+    @media (min-width: 768px) {
+        height: 400px;
+        object-position: 0 86%;
+    };
 }
 
 .about_us_content {
     background-color: darkslategrey;
     color: white;
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
+
+    @media (min-width: 768px) {
+        position: absolute;
+        max-width: 350px;
+        border-radius: 15px;
+        box-shadow: 0 4px 25px rgba(255, 255, 255, 0.4);
+        top: 165px;
+        left: 50px;
+    };
+
+    @media (min-width: 1024px) {
+        max-width: 450px;
+        left: 100px;
+    };
+
+    @media (min-width: 1440px) {
+        left: 150px;
+    };
 }

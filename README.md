@@ -11,7 +11,7 @@ Puedes ver la demo en vivo aquí: [DEMO](https://laurarguezf.github.io/cycling_c
 - Secciones dedicadas a:
     1. Información sobre el club.
     2. Eventos y rutas ciclistas.
-    3. Formulario de inscripción para nuevos miembros
+    3. Formulario de inscripción a la newsletter
 
 ## Tecnologías Utilizadas
 
