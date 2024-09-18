@@ -2,7 +2,7 @@
 
 Puedes ver la demo en vivo aquí: [DEMO](https://laurarguezf.github.io/cycling_club/)
 
-**Cycling Club Website** es una página web estática desarrollada para un club de ciclismo. La web incluye información sobre el club, actividades y sección de inscripciones. Está constuida utilizando **HTML5**. **CSS3** y **Sass**, y es completamente responsive, lo que permite us correcta visualización en diferentes dispositivos y tamaños de pantalla.
+**Cycling Club Website** es una página web estática desarrollada para un club de ciclismo. La web incluye información sobre el club, actividades y sección de inscripciones. Está constuida utilizando **HTML5**, **CSS3** y **Sass**, y es completamente responsive, lo que permite su correcta visualización en diferentes dispositivos y tamaños de pantalla.
 
 ## Características
 
